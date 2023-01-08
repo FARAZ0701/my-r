@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+.box-main{
+    display: block;
+    text-align: center;
+}
+.box-main label,input{
+    margin-bottom: 30px;
+
+}
