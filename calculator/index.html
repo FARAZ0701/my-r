@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="sbody"></div>
+    <div class="box-main">
+        <div class="screen">
+            <input type="text" id="screen" style='direction: rtl;'>
+        </div>
+        <div class="inn-box">
+
+            <div class="button-box"><button value="7" onclick="sccreen.value+=`${this.value}` ">7</button></div>
+            <div class="button-box"><button value="8" onclick="sccreen.value+=`${this.value}` ">8</button></div>
+            <div class="button-box"><button value="9" onclick="sccreen.value+=`${this.value}` ">9</button></div>
+            <div class="button-box"><button value="/" onclick="sccreen.value+=`${this.value}` ">÷</button></div>
+            <div class="button-box"><button value="4" onclick="sccreen.value+=`${this.value}` ">4</button></div>
+            <div class="button-box"><button value="5" onclick="sccreen.value+=`${this.value}` ">5</button></div>
+            <div class="button-box"><button value="6" onclick="sccreen.value+=`${this.value}` ">6</button></div>
+            <div class="button-box"><button value="*" onclick="sccreen.value+=`${this.value}` ">× </button></div>
+            <div class="button-box"><button value="1" onclick="sccreen.value+=`${this.value}` ">1</button></div>
+            <div class="button-box"><button value="2" onclick="sccreen.value+=`${this.value}` ">2</button></div>
+            <div class="button-box"><button value="3" onclick="sccreen.value+=`${this.value}` ">3</button></div>
+            <div class="button-box"><button value="-" onclick="sccreen.value+=`${this.value}` ">-</button></div>
+            <div class="button-box"><button value="0" onclick="sccreen.value+=`${this.value}` ">0</button></div>
+            <div class="button-box"><button value="." onclick="sccreen.value+=`${this.value}` ">.</button></div>
+            <div class="button-box"><button value="+" onclick="sccreen.value+=`${this.value}` ">+</button></div>
+            <div class="button-box"><button value="=" onclick="sccreen.value=`${eval(sccreen.value)}`">=</button></div>
+            <div class="button-box clear"><button onclick="sccreen.value=''">C</button></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
