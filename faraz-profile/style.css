@@ -1,0 +1,202 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+.mainwindow {
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    justify-content: center;
+}
+
+.first-img img {
+
+    border: solid yellow;
+}
+
+.box-main {
+    width: 1000px;
+    border-radius: 30px;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    margin: auto;
+}
+
+.mainwindow .first-img img {
+    border-radius: 100px;
+    transform: rotate(270deg);
+    width: 150px;
+}
+
+.img img {
+    transform: rotate(270deg);
+
+}
+
+.img {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+    height: 507px;
+    width: 400px;
+    transform: rotate(0deg);
+
+}
+
+.text {
+    text-align: center;
+}
+
+.medium {
+    color: rgb(255, 255, 0);
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.big {
+    color: white;
+    font-size: 60px;
+}
+
+nav {
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    padding-right: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+.small {
+    color: white;
+    font-size: 25px;
+    word-spacing: 5px;
+    line-height: 45px;
+}
+
+#about {
+    width: 1200px;
+    border-radius: 30px;
+    background-color: rgb(141, 141, 141);
+    margin: auto;
+}
+
+.lap-img img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ap {
+    margin-top: 0px;
+    margin: 50px;
+}
+
+.portfolio {
+    width: 540px;
+    border-radius: 30px;
+    background-color: rgb(141, 141, 141);
+    margin: auto;
+}
+
+.acontent {
+    display: flex;
+}
+
+.acontent2 {
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(88, 88, 88);
+    border-radius: 20px;
+}
+
+.certificate1 img {
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.certificate2 img {
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
+
+.certificate3 img {
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
+
+.mmainport {
+    margin: auto;
+}
+
+.certificate1 {
+    margin: 0px;
+}
+
+.mainport {
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.portt {
+    text-align: center;
+    background-color: rgb(141, 141, 141);
+    margin: auto;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#port {
+    color: yellow;
+    margin-top: 250px;
+}
+
+
+
+.box-main,#about,.mainport,.lap-img img,.acontent2,.first-img img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.width{
+    margin-top: 1px;
+    margin:80px;
+}
+
+@media screen and (max-width: 1705px) {
+    .mainport{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .acontent2,.certificate1 img{
+        width: 1000px;
+        margin: auto;
+    }
+  }
